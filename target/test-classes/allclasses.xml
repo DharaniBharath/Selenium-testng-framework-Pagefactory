@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="com.Listeners.MyListener"/>
+    </listeners>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Dharani bharath/Downloads/Selenium-testng-hybrid-framework/SeleniumTestNG_pagefactory_fm/src/test/java/com/testcases">
+        <classes>
+            <class name="com.testcases.RegisterTest">
+                <methods>
+                    <include name="verify_register_an_account_with_mandatory_filed"/>
+                    <include name="verify_register_an_account_with_all_filed"/>
+                    <include name="verify_register_an_account_with_existing_email"/>
+                    <include name="verifyallfielsmessagesNodataprovided"/>
+                </methods>
+            </class>
+            <class name="com.testcases.LoginTest">
+                <methods>
+                    <include name="verifyloginwith_valid_credentials"/>
+                    <include name="verifyloginwith_invalid_credentials"/>
+                    <include name="verifyloginwith_invalid_email_valid_password"/>
+                    <include name="verifyloginwith_valid_email_invalid_password"/>
+                    <include name="verifyloginwithout_email_password"/>
+                </methods>
+            </class>
+            <class name="com.testcases.SearchTest">
+                <methods>
+                    <include name="searchwithvalidproduct"/>
+                    <include name="searchwith_noexistent_product"/>
+                    <include name="searchwithout_entering_product"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

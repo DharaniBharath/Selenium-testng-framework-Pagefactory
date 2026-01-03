@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <listeners>
+        <listener class-name="com.Listeners.MyListener"/>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+
+    <test name="Search Test Suiter" verbose="2" preserve-order="true">
+        <classes>
+            <class name="com.testcases.SearchTest">
+                <methods>
+                    <include name="searchwithvalidproduct"/>
+                    <include name="searchwith_noexistent_product"/>
+                    <include name="searchwithout_entering_product"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

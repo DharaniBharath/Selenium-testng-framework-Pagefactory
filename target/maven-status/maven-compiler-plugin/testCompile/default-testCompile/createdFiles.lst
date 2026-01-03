@@ -1,0 +1,6 @@
+com\base\BaseTest.class
+com\testcases\LoginTest.class
+com\Listeners\MyListener.class
+com\testcases\SearchTest.class
+com\allurereportsData\AllureLog.class
+com\testcases\RegisterTest.class
