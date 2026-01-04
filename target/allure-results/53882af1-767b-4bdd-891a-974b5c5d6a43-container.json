@@ -1,1 +1,0 @@
-{"uuid":"53882af1-767b-4bdd-891a-974b5c5d6a43","name":"com.testcases.SearchTest.quit","children":["eb606217-42f9-4cff-9271-8f7aa7372ab5"],"description":"","befores":[],"afters":[{"name":"quit","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1767491401032,"stop":1767491401284}],"start":1767491401032,"stop":1767491401284}
