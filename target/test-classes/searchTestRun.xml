@@ -7,7 +7,7 @@
         <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
     </listeners>
 
-    <test name="Search Test Suite" verbose="2" preserve-order="true">
+    <test name="Search Test Suite  " verbose="2" preserve-order="true">
         <classes>
             <class name="com.testcases.SearchTest">
                 <methods>
