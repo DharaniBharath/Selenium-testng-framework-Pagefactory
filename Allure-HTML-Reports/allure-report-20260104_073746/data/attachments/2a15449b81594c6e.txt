@@ -1,0 +1,1 @@
+TEST PASSED : searchwithout_entering_product
